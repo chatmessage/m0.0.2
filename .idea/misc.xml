@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/iii/AndroidStudioProjects/androidchat1/app/src/main/res/drawable-v24/friend_message.xml" value="0.1995" />
+        <entry key="..\:/Users/iii/AndroidStudioProjects/androidchat1/app/src/main/res/drawable-v24/ic_baddfriend.xml" value="0.2985" />
+        <entry key="..\:/Users/iii/AndroidStudioProjects/androidchat1/app/src/main/res/drawable-v24/ic_bdelfriend.xml" value="0.2985" />
+        <entry key="..\:/Users/iii/AndroidStudioProjects/androidchat1/app/src/main/res/drawable-v24/ic_bexit.xml" value="0.2985" />
+        <entry key="..\:/Users/iii/AndroidStudioProjects/androidchat1/app/src/main/res/drawable-v24/ic_bsend.xml" value="0.2985" />
+        <entry key="..\:/Users/iii/AndroidStudioProjects/androidchat1/app/src/main/res/drawable-v24/my_message.xml" value="0.1995" />
+        <entry key="..\:/Users/iii/AndroidStudioProjects/androidchat1/app/src/main/res/layout/activity_main.xml" value="0.371875" />
+        <entry key="..\:/Users/iii/AndroidStudioProjects/androidchat1/app/src/main/res/layout/layout_email_code.xml" value="0.371875" />
+        <entry key="..\:/Users/iii/AndroidStudioProjects/androidchat1/app/src/main/res/layout/layout_friendlist.xml" value="0.371875" />
+        <entry key="..\:/Users/iii/AndroidStudioProjects/androidchat1/app/src/main/res/layout/list_friendmessage.xml" value="0.371875" />
+        <entry key="..\:/Users/iii/AndroidStudioProjects/androidchat1/app/src/main/res/layout/list_mymessage.xml" value="0.371875" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

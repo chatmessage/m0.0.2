@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightblue">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="277dp"
+        android:layout_height="99dp"
+        android:gravity="center"
+        android:text="Добро пожаловать"
+        android:textAlignment="center"
+        android:textColor="#0037FF"
+        android:textSize="40dp"
+        app:layout_constraintEnd_toEndOf="@+id/editEmail"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="@+id/editEmail"
+        tools:layout_editor_absoluteY="184dp"/>
+
+    <EditText
+        android:id="@+id/editEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="376dp"
+        android:ems="10"
+        android:hint="E-mail..."
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editCode"
+        android:layout_width="210dp"
+        android:layout_height="39dp"
+        android:ems="10"
+        android:hint="Введите код..."
+        android:inputType="numberPassword"
+        app:layout_constraintEnd_toEndOf="@+id/editEmail"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/editEmail"
+        app:layout_constraintTop_toBottomOf="@+id/editEmail" />
+
+    <Button
+        android:id="@+id/bsignin"
+        android:layout_width="209dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="4dp"
+        android:backgroundTint="#FF00E2FF"
+        android:text="Войти"
+        android:textColor="#0037FF"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/editCode"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/editCode"
+        app:layout_constraintTop_toBottomOf="@+id/editCode" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
