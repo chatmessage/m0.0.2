@@ -43,10 +43,12 @@
             app:fabSize="mini"
             android:src="@drawable/ic_baddfriend" />
 
-        <com.google.android.material.textfield.TextInputLayout
+        <RelativeLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_toLeftOf="@id/baddfriend"
+            android:layout_marginTop="12dp"
+            android:layout_marginStart="5dp"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true">
 
@@ -54,10 +56,11 @@
                 android:id="@+id/emailField"
                 android:layout_width="match_parent"
                 android:background="@color/lightblue"
+                android:gravity="center_vertical"
                 android:layout_height="wrap_content"
                 android:textSize="15dp"
                 android:hint="Введите E-mail друга..."/>
-        </com.google.android.material.textfield.TextInputLayout>
+        </RelativeLayout>
 
     </RelativeLayout>
 
@@ -66,13 +69,12 @@
         android:id="@+id/friendlist"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_below="@id/searhfriend"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginBottom="5dp"
-        android:layout_marginTop="5dp"
         android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
         android:layout_marginRight="5dp"
-        android:layout_below="@id/searhfriend"
-        ></ListView>
+        android:layout_marginBottom="5dp"></ListView>
 
 </RelativeLayout>
